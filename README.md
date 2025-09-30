@@ -1,6 +1,6 @@
 
 ## Git Clone
-<pre>git clone https://github.com/rancharanBb/DLcompiler.git</pre>
+<pre>git clone https://github.com/ramcharanBb/DLcompiler.git</pre>
 
 
 ## Build Command
