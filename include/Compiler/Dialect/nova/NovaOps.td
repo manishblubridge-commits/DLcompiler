@@ -131,9 +131,9 @@ def Nova_CeilOp: Nova_UnaryOp<"ceil">{
 
 //----------------------floor--------------------
 def Nova_FloorOp: Nova_UnaryOp<"floor">{
-  let summary = "Ceil operation";
+  let summary = "Floor operation";
   let description = [{
-    Performs element-wise ceil of `operand` tensor and produces a `result` tensor.
+    Performs element-wise floor of `operand` tensor and produces a `result` tensor.
     Example:
     %result = nova.floor %operand : tensor<5xf32>
   }];
