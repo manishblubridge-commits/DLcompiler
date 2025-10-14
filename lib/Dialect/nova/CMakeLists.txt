@@ -2,6 +2,7 @@
 add_mlir_dialect_library(MLIRNova
   NovaDialect.cpp
   NovaOps.cpp
+  Broadcast.cpp
 
   ADDITIONAL_HEADER_DIRS
   ${PROJECT_SOURCE_DIR}/include/Compiler/Dialect/nova
@@ -11,6 +12,8 @@ add_mlir_dialect_library(MLIRNova
 
   LINK_LIBS PUBLIC
   MLIRIR
+  MLIRInferTypeOpInterface
+  MLIRSideEffectInterfaces
 )
 
 target_include_directories(MLIRNova PRIVATE
